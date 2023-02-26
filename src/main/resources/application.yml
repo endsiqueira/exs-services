@@ -1,0 +1,12 @@
+server:
+  port: ${PORT:8001}
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/servicesexsdb
+  jackson:
+    serialization:
+      fail-on-empty-beans: false
+  main:
+    allow-bean-definition-overriding: true
