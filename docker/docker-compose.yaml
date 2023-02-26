@@ -1,5 +1,4 @@
 version: '3'
-
 services:
   mongo-express:
     image: mongo-express
@@ -10,7 +9,6 @@ services:
       - ME_CONFIG_MONGODB_SERVER=mongodb
     depends_on:
       - mongodb
-
   mongodb:
     image: mongo
     container_name: mongodb-container
