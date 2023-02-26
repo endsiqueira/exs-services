@@ -2,8 +2,11 @@
 Simple CRUD application using MongoDB, MongoExpress and Docker.
 
 1 - Access MongoExpress by http://localhost:8081/
+
 2 - Create DB servicesexsdb
+
 3 - Open a terminal session in docker folder and run the command docker-compose up
+
 4 - Import in postman the curls ahead;
 
 Basic cUrls :
